@@ -8,15 +8,9 @@ public class ClasseCliente {
 	private String email;
 	private String telefone;
 	private double saldo;
-
+    
 	public ClasseCliente(String nome, String sobrenome, String email, String telefone, double saldo) {
-		
-	}
-
-	public ClasseCliente(String nome2, String sobrenome2, String email2, String telefone2, String string) {
-	}
-
-	{
+	
 		this.nome = nome;
 		this.sobrenome = sobrenome;
 		this.email = email;
@@ -54,11 +48,12 @@ public class ClasseCliente {
 	public void setTelefone(String telefone) {
 		this.telefone = telefone;
 	}
-
-	public float getSaldo() {
-		return (float) saldo;
+	
+	public double getSaldo() {
+		return saldo;
 	}
-	public void setSaldo(String string) {
+
+	public void setSaldo(double saldo) {
 		this.saldo = saldo;
 	}
 
